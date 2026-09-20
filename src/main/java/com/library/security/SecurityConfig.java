@@ -54,7 +54,7 @@ public class SecurityConfig {
 
         corsConfiguration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://olms.vercel.app"
+                "https://olms-ui.vercel.app"
         ));
 
         corsConfiguration.setAllowedMethods(List.of(
